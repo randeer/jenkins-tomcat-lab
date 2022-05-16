@@ -1,6 +1,6 @@
 <html>
 <body>
 <h2>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h2>
-<p>Randeer Lalanga</p>
+<p>Randeer Lalanga, I am from Galle</p>
 </body>
 </html>
