@@ -93,7 +93,7 @@ body, html {
   <p>IT experience in over 6+ years of Planning, Architecture, and Implementing Microsoft/Linux Solutions & Services along with Managed Service experience. Also, have been successful in meeting new technical challenges and finding solutions to meet the needs of clients (enterprise and Small & Medium Business). A person who enjoys meeting challenges and good-humored under pressure, experienced analyzer, and troubleshooter to consider all opportunities with an open mind before making a decision.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
+      <p><b><i class="fa fa-user w3-margin-right"></i>Randeer Lalanga</b></p><br>
       <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
