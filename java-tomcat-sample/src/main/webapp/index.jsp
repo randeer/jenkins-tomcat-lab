@@ -99,14 +99,10 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Microsoft Certified: Azure Security</p>
-
+        <p>Microsoft Certified: Azure Security</p>
         <p>Microsoft Certified: Azure Architect</p>
-        
         <p>Microsoft Certified: Azure Administrator Associate</p>
-        
-        <p>Red Hat Certified System Administrator</p>
-        
+        <p>Red Hat Certified System Administrator</p>     
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
