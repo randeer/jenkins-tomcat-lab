@@ -114,7 +114,7 @@ body, html {
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-photo"></i>Azure/AWS Cloud Solutions/p>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Azure/AWS Cloud Solutions</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
   </div>
