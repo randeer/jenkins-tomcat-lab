@@ -99,21 +99,14 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Microsoft Certified: Azure Security
+      <p>Microsoft Certified: Azure Security</p>
 
-        Microsoft Certified: Azure Architect
+        <p>Microsoft Certified: Azure Architect</p>
         
-        Microsoft Certified: Azure Administrator Associate
+        <p>Microsoft Certified: Azure Administrator Associate</p>
         
-        Red Hat Certified System Administrator
+        <p>Red Hat Certified System Administrator</p>
         
-        Datto Technical Specialist I and II
-        
-        ConnectWise Automate (RMM) Implementation, Administrator and Service Technician Degrees
-        
-        Fortinet Network Security Associate (NSE)
-        
-        IaaS Cloud Computing With OpenStack</p>
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
