@@ -105,7 +105,7 @@ body, html {
         <p>Red Hat Certified System Administrator</p>     
     </div>
   </div>
-  <p class="w3-large w3-center w3-padding-16">Completed Project Tasks 2022:</p>
+  <p class="w3-large w3-center w3-padding-16">Completed Project Tasks 2022 Cmpleted:</p>
   <p class="w3-wide"><i class="fa fa-camera"></i>Windows Server</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
