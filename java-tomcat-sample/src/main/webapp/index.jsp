@@ -88,7 +88,7 @@ body, html {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
+  <h3 class="w3-center">WHO AM I</h3>
   <p class="w3-center"><em>LINUX, WINDOWS & CLOUD ENGINEER</em></p>
   <p>IT experience in over 6+ years of Planning, Architecture, and Implementing Microsoft/Linux Solutions & Services along with Managed Service experience. Also, have been successful in meeting new technical challenges and finding solutions to meet the needs of clients (enterprise and Small & Medium Business). A person who enjoys meeting challenges and good-humored under pressure, experienced analyzer, and troubleshooter to consider all opportunities with an open mind before making a decision.</p>
   <div class="w3-row">
