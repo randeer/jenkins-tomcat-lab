@@ -27,5 +27,12 @@ pipeline {
                 build job: 'deploy_to_prod_env'
             }
         }
+        stage('Move to Docker server'){
+            steps{
+                build job: 'move_to_docker'
+
+           }
+            
+      }
     }
 }
