@@ -102,7 +102,8 @@ body, html {
         <p>Microsoft Certified: Azure Security</p>
         <p>Microsoft Certified: Azure Architect</p>
         <p>Microsoft Certified: Azure Administrator Associate</p>
-        <p>Red Hat Certified System Administrator</p>     
+        <p>Red Hat Certified System Administrator</p>
+        <p>Datto Level 1 & 2 ENGINEER</p>    
     </div>
   </div>
   <p class="w3-large w3-center w3-padding-16">Completed Project Tasks 2022 Cmpleted:</p>
