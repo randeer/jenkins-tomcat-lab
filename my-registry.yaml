@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mycv-regisrty
+  namespace: jenkins-dev
+  labels:
+    app: cv_template
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: cv_template
+  template:
+    metadata:
+      labels:
+        app: cv_template
+    spec:
+      containers:
+      - name: cv_template
+        image: 20.1.190.133:5000/cv_template:${IMAGE_TAG}
+        ports:
+        - containerPort: 80
