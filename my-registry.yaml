@@ -4,19 +4,19 @@ metadata:
   name: mycv-regisrty
   namespace: jenkins-dev
   labels:
-    app: cv_template
+    app: cv-template
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: cv_template
+      app: cv-template
   template:
     metadata:
       labels:
-        app: cv_template
+        app: cv-template
     spec:
       containers:
-      - name: cv_template
+      - name: cv-template
         image: 20.1.190.133:5000/cv_template:${IMAGE_TAG}
         ports:
         - containerPort: 80
