@@ -14,5 +14,5 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkArchitectureOption: 'x64'
     #testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
-    #goals: 'deploy'
+    #goals: 'package'
+    goals: 'deploy'
