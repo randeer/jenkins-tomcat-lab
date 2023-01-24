@@ -16,3 +16,9 @@ steps:
     #testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
     #goals: 'deploy'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Build Artifacts'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
