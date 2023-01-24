@@ -13,12 +13,12 @@ steps:
     mavenVersionOption: 'Default'
     javaHomeOption: 'JDKVersion'
     jdkArchitectureOption: 'x64'
-    #testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-    #goals: 'deploy'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Build Artifacts'
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/java-tomcat-sample/target'
     ArtifactName: 'drop'
+    includeRootFolder: false
+    Contents: '**/*.war'
