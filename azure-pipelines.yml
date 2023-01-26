@@ -22,3 +22,8 @@ steps:
     ArtifactName: 'rashmika-manawadu'
     includeRootFolder: false
     Contents: '**/*.war'
+    
+- task: WhiteSource@21
+  inputs:
+    cwd: '$(System.DefaultWorkingDirectory)'
+    projectName: 'agile-test'
