@@ -5,25 +5,49 @@ pool:
   name: default
 
 steps:
+- task: SonarSource.sonarqube.15B84CA1-B62F-4A2A-A403-89B77A063157.SonarQubePrepare@5
+  displayName: 'Prepare analysis on SonarQube'
+  inputs:
+    SonarQube: 'SonarQube-rash'
+    projectKey: 'sqp_1f77435514002097da45d4cccf5ffb20a030449b'
+    projectName: 'rashmika-manawadu'
+    extraProperties: |
+     # Additional properties that will be passed to the scanner,
+     # Put one key=value per line, example:
+     # sonar.exclusions=**/*.bin
+     sonar.projectKey=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7
+
 - task: Maven@3
-  displayName: Rashmika-Manawadu
+  displayName: 'Maven java-tomcat-sample/pom.xml'
   inputs:
     mavenPomFile: 'java-tomcat-sample/pom.xml'
     publishJUnitResults: false
-    mavenVersionOption: 'Default'
-    javaHomeOption: 'JDKVersion'
-    jdkArchitectureOption: 'x64'
-    goals: 'package'
+    sonarQubeRunAnalysis: true
+
+
+- task: SonarSource.sonarqube.291ed61f-1ee4-45d3-b1b0-bf822d9095ef.SonarQubePublish@5
+  displayName: 'Publish Quality Gate Result'
+
+
+- task: CopyFiles@2
+  displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
+  inputs:
+    SourceFolder: '$(system.defaultworkingdirectory)'
+    Contents: '**/*.jar'
+    TargetFolder: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
+
 
 - task: PublishBuildArtifacts@1
-  displayName: 'Publish Build Artifacts'
+  displayName: 'Publish Artifact: drop'
   inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)/java-tomcat-sample/target'
-    ArtifactName: 'rashmika-manawadu'
-    includeRootFolder: false
-    Contents: '**/*.war'
-    
-- task: WhiteSource@21
+    PathtoPublish: '$(build.artifactstagingdirectory)'
+  condition: succeededOrFailed()
+
+- task: whitesource.whiteSource-bolt-v2.bolt.wss.WhiteSource@21
+  displayName: WhiteSource
   inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
     projectName: 'agile-test'
+
+
+
