@@ -41,7 +41,10 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   inputs:
-    PathtoPublish: '$(build.artifactstagingdirectory)'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/java-tomcat-sample/target'
+    ArtifactName: 'rashmika-manawadu'
+    includeRootFolder: false
+    Contents: '**/*.war'
   condition: succeededOrFailed()
 
 - task: whitesource.whiteSource-bolt-v2.bolt.wss.WhiteSource@21
