@@ -13,3 +13,8 @@ Overall, Azure DevOps with self-hosted agents is a powerful and flexible way to 
 
 
 [![Build Status](https://dev.azure.com/randeerlalanga92/agile-test/_apis/build/status/randeer.jenkins-tomcat-lab?branchName=master)](https://dev.azure.com/randeerlalanga92/agile-test/_build/latest?definitionId=7&branchName=master)
+[![Vulnerabilities](http://40.124.44.35:9000/api/project_badges/measure?project=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7&metric=vulnerabilities&token=79af9a62710221d813375da26c3a862269dac349)](http://40.124.44.35:9000/dashboard?id=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7)
+[![Lines of Code](http://40.124.44.35:9000/api/project_badges/measure?project=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7&metric=ncloc&token=79af9a62710221d813375da26c3a862269dac349)](http://40.124.44.35:9000/dashboard?id=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7)
+[![Security Rating](http://40.124.44.35:9000/api/project_badges/measure?project=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7&metric=security_rating&token=79af9a62710221d813375da26c3a862269dac349)](http://40.124.44.35:9000/dashboard?id=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7)
+
+[![Quality gate](http://40.124.44.35:9000/api/project_badges/quality_gate?project=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7&token=79af9a62710221d813375da26c3a862269dac349)](http://40.124.44.35:9000/dashboard?id=agile-test_rashmika-manawadu_AYYp3trVyi-JvF8GA3n7)
